@@ -16,7 +16,7 @@ let data = [
   { "name": "Ben",
     "age": "52",
     "height": "192cm",
-    "value": '{ "date": "23-03-20", "location": "London" }'
+    "value": '{ "date": "23-03-20", "location": "Berlin" }'
   },
   { "name": "Mary",
     "age": "35",

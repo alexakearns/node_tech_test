@@ -10,7 +10,6 @@ const loop1 = (dataSet) => {
   });
 };
 
-loop1(data);
 
 const loop2 = (dataSet) => {
   for (let i = 0; i < dataSet.length; i++) {
@@ -23,22 +22,35 @@ const loop2 = (dataSet) => {
   }
 };
 
-loop2(data);
 
 const loop3 = (dataSet) => {
   let count = 0;
   const total = dataSet.length;
   while (count <= total) {
-    count += 1;
     let object = dataSet[count];
     try {
       console.log(JSON.parse(object.value));
     } catch (error) {
       console.log("error");
     }
+    count += 1;
   }
 };
 
-loop3(data);
 
+// const loop4 = (dataSet) => {
+//   for (let object in dataSet) {
+//     try {
+//       console.log(JSON.parse(object.value));
+//     } catch (error) {
+//       console.log("error");
+//     }
+    
+//   }
+// }
+
+// loop1(data);
+// loop2(data);
+loop3(data);
+loop4(data)
 module.exports;
