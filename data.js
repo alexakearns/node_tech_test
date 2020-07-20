@@ -2,7 +2,7 @@ let data = [
   { "name": "John",
     "age": "23",
     "height": "180cm",
-    "value": '{ "date": "23-03-20", "location": "London" }'
+    "value": '{ "date": "23-03-20", "location": "London", "img": "london.jpg" }'
   },
   { "name": "David",
     "age": "34",
@@ -25,7 +25,7 @@ let data = [
   { "name": "Clare",
   "age": "64",
   "height": "158cm",
-  "value": '{ "date": "19-04-20", "location": "Madrid" }'
+  "value": '{ "date": "19-04-20", "location": "Madrid", "img": "madrid.jpg" }'
   }
 ]
 
