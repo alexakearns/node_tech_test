@@ -11,7 +11,8 @@ let data = [
   },
   { "name": "Anna",
   "age": "45",
-  "height": "160cm"
+  "height": "160cm",
+  "value": '{ "img": "venice.jpg" }'
   },
   { "name": "Ben",
     "age": "52",
