@@ -34,9 +34,9 @@ const processData = (obj) => {
   try {
     let objVal = JSON.parse(obj.value);
     let image = objVal.img;
-
     let body = image;
-
+    
+    
     let options = {
       hostname: "localhost",
       port: 3000,
@@ -54,16 +54,16 @@ const processData = (obj) => {
           data += d;
         });
         res.on("end", () => {
-          console.log(data);
+          // console.log(data);
+          let imgInfo = JSON.parse(data);
+          console.log(
+            `Image ${image} is ${imgInfo.width}px x ${imgInfo.height}px and ${imgInfo.size_KB}KB.`
+          );
         });
       })
       .on("error", console.error)
       .end(body);
 
-    let imgInfo = JSON.parse(data);
-    console.log(
-      `Image ${image} is ${imgInfo.width}px x ${imgInfo.height}px and ${imgInfo.size_KB}KB.`
-    );
   } catch (error) {
     console.log("error");
   }
