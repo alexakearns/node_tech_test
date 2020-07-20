@@ -1,5 +1,5 @@
 const http = require("http");
-const sizeOf = require("image-size");
+const imgSize = require("image-size");
 const fs = require("fs");
 
 const port = 3000;
@@ -10,11 +10,7 @@ const server = http.createServer((req, res) => {
     req.on("data", function (inputData) {
       body += inputData;
 
-      //check if file exists
-      // throw err if not
-      //return img properties - height/width/size
-
-      let dimensions = sizeOf(body);
+      let dimensions = imgSize(body);
       let width = dimensions.width;
       let height = dimensions.height;
 
