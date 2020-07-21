@@ -73,5 +73,3 @@ loop1(data);
 loop2(data);
 loop3(data);
 loop4(data);
-
-module.exports;
