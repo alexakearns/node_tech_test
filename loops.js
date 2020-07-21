@@ -8,7 +8,7 @@ const loop1 = (dataSet) => {
 };
 
 const loop2 = (dataSet) => {
-  for (let i = 0; i < dataSet.length; i++) {
+  for (let i = 0, j = dataSet.length ; i < j; i++) {
     let object = dataSet[i];
     processData(object);
   }
