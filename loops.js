@@ -1,19 +1,22 @@
 const data = require("./data");
 const http = require("http");
 
+// forEach loop
 const loop1 = (dataSet) => {
   dataSet.forEach(function (object) {
     processData(object);
   });
 };
 
+// for loop
 const loop2 = (dataSet) => {
-  for (let i = 0, j = dataSet.length ; i < j; i++) {
+  for (let i = 0, j = dataSet.length; i < j; i++) {
     let object = dataSet[i];
     processData(object);
   }
 };
 
+// while loop
 const loop3 = (dataSet) => {
   let count = 0;
   const total = dataSet.length;
@@ -24,6 +27,7 @@ const loop3 = (dataSet) => {
   }
 };
 
+// for of loop
 const loop4 = (dataSet) => {
   for (let object of dataSet) {
     processData(object);
@@ -35,8 +39,7 @@ const processData = (obj) => {
     let objVal = JSON.parse(obj.value);
     let image = objVal.img;
     let body = image;
-    
-    
+
     let options = {
       hostname: "localhost",
       port: 3000,
@@ -63,7 +66,6 @@ const processData = (obj) => {
       })
       .on("error", console.error)
       .end(body);
-
   } catch (error) {
     console.log("error");
   }
