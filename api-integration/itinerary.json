@@ -1,0 +1,248 @@
+{
+  "type": "trip",
+  "departure_date": "2020-10-12",
+  "return_date": "2020-10-20",
+  "timezone": "GMT -7",
+  "start_time": "08:00",
+  "client_reference": "Cali-SF",
+  "vamoos_id": 0,
+  "field1": "San Francisco",
+  "field2": "Cultural",
+  "field3": "Daniel",
+  "field4": "Smith",
+  "source": "string",
+  "background": {
+    "web_url": "https://cdn.shopify.com/s/files/1/0053/6513/7472/products/goldengatebattery_720x.jpg?v=1547090132",
+    "name": "string",
+    "icon_id": 0
+  },
+  "locations": [
+    {
+      "name": "Golden Gate Bridge",
+      "location": "San Francisco",
+      "latitude": 37.7739722,
+      "longitude": -122.431297,
+      "position": 0,
+      "description": "string",
+      "country": "string",
+      "icon_id": 0,
+      "file": {
+        "web_url": "https://www.goldengate.org/",
+        "name": "Golden Gate",
+        "icon_id": 0
+      },
+      "internal_id": 0,
+      "on_weather": true,
+      "on_maps": true,
+      "meta": {}
+    }
+  ],
+  "travellers": [
+    {
+      "name": "Daniel Smith",
+      "friendly_name": "string",
+      "details": {}
+    },
+    {
+      "name": "Julie Smith",
+      "friendly_name": "string",
+      "details": {}
+    }
+  ],
+  "flight_ids": [
+    0
+  ],
+  "poi_ids": [
+    0
+  ],
+  "pois": [
+    {
+      "id": 0,
+      "is_on": true
+    }
+  ],
+  "inspiration_id": 0,
+  "inspiration_vamoos_id": 0,
+  "notifications": [
+    {
+      "template_id": 0,
+      "type": "gps",
+      "content": "Try an Irish Coffee at The Buena Vista.",
+      "url": "http://www.thebuenavista.com/home/home.html",
+      "location_id": 0,
+      "location_internal_id": 0,
+      "inspiration_id": 0,
+      "inspiration_vamoos_id": 0,
+      "start_at": "2020-10-13T10:00:00Z",
+      "end_at": "2020-10-17T14:15:22Z",
+      "delivery_at_relative_to": "start",
+      "delivery_at_days": 2,
+      "delivery_at": "2019-08-24T14:15:22Z",
+      "latitude": 37.8050,
+      "longitude": -122.4093,
+      "is_active": true,
+      "details": {}
+    }
+  ],
+  "directories": [
+    {
+      "type": "directory",
+      "name": "string",
+      "content": "string",
+      "is_list": true,
+      "background": {
+        "library_node_id": 0,
+        "name": "string",
+        "icon_id": 0
+      },
+      "video": {
+        "library_node_id": 0,
+        "name": "string",
+        "icon_id": 0
+      },
+      "starts_at": "2019-08-24T14:15:22Z",
+      "ends_at": "2019-08-24T14:15:22Z",
+      "is_enabled": true,
+      "weekdays": {
+        "monday": false,
+        "tuesday": false,
+        "wednesday": false,
+        "thursday": false,
+        "friday": false,
+        "saturday": false,
+        "sunday": false
+      },
+      "actions": [
+        {
+          "library_node_id": 0,
+          "name": "string",
+          "icon_id": 0
+        }
+      ],
+      "children": [
+        {}
+      ]
+    }
+  ],
+  "passcode_groups": [
+    {
+      "name": "string",
+      "passcodes": [
+        {
+          "passcode": "string",
+          "description": "string"
+        }
+      ],
+      "display_rules": {
+        "show_directory": "always",
+        "show_documents": "always",
+        "show_messaging": "always",
+        "show_daily": "always",
+        "show_dnd": "during",
+        "show_vouchers": "always"
+      }
+    }
+  ],
+  "documents": {
+    "travel": [
+      {
+        "web_url": "https://pdfimages.wondershare.com/forms-templates/trip-itinerary-template-1.pdf",
+        "name": "itinerary example",
+        "icon_id": 0
+      }
+    ],
+    "destination": [
+      {
+        "web_url": "http://d139u8doh717eh.cloudfront.net/san-francisco-map.pdf",
+        "name": "SF map",
+        "icon_id": 0
+      }
+    ]
+  },
+  "details": [
+    {
+      "headline": "string",
+      "content": "string",
+      "position": 0,
+      "documents": [
+        {
+          "library_node_id": 0,
+          "name": "string",
+          "icon_id": 0
+        }
+      ],
+      "image": {
+        "library_node_id": 0,
+        "name": "string",
+        "icon_id": 0
+      },
+      "location_internal_id": 0,
+      "location": {
+        "name": "string",
+        "location": "string",
+        "latitude": -90,
+        "longitude": -180,
+        "position": 0,
+        "description": "string",
+        "country": "string",
+        "icon_id": 0,
+        "file": {
+          "library_node_id": 0,
+          "name": "string",
+          "icon_id": 0
+        },
+        "internal_id": 0,
+        "on_weather": true,
+        "on_maps": true,
+        "meta": {}
+      },
+      "details": {}
+    }
+  ],
+  "meta": {
+    "show_journal": "0",
+    "show_days": "0",
+    "show_story_board_daily": "0",
+    "show_story_board_summary": "0",
+    "show_poi_list": "0",
+    "show_directory": "always",
+    "show_vouchers": "always",
+    "show_daily_activities": "always",
+    "show_messaging": "string",
+    "show_dnd": "during",
+    "dnd_contact_email": "string",
+    "dnd_cut_off_time": "string",
+    "dnd_warning_message": "string",
+    "messaging_email_during": "string",
+    "messaging_email_before_after": "string",
+    "messaging_email_during_days_before": "string",
+    "messaging_email_during_days_after": "string",
+    "download_counter": "string",
+    "travel_documents_label": "string",
+    "destination_documents_label": "string",
+    "travel_documents_icon_id": "string",
+    "destination_documents_icon_id": "string",
+    "daily_activities_days": 7,
+    "home_screen_description": "string",
+    "address": "string",
+    "latitude": "string",
+    "longitude": "string",
+    "telephone": "string",
+    "email": "string",
+    "website": "string",
+    "twitter": "string",
+    "facebook": "string",
+    "short_description": "string",
+    "long_description": "string",
+    "number_of_rooms": "string",
+    "hotel_info_label": "string",
+    "hotel_info_icon_id": "string"
+  },
+  "logo": {
+    "library_node_id": 0,
+    "name": "string",
+    "icon_id": 0
+  },
+  "is_active": true,
+  "new_only": false
+}
