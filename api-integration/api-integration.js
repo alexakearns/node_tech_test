@@ -1,20 +1,22 @@
-const axios = require('axios');
-require('dotenv').config()
+const axios = require("axios");
+const data = require("./itinerary.json");
+require("dotenv").config();
 
-let url = "https://live.vamoos.com/v3/itinerary"
-let config = {
+let reference_code = data.client_reference;
+let url = `https://live.vamoos.com/v3/itinerary/${process.env.OPERATOR_CODE}/${reference_code}`;
+
+const config = {
   headers: {
     "X-User-Access-Token": process.env.API_KEY,
-    "X-Operator-Code": process.env.OPERATOR_CODE
+    "X-Operator-Code": process.env.OPERATOR_CODE,
   }
 }
 
-axios.get(url, config)
+axios.post(url, data, config)
   .then((response) => {
-    console.log(response)
+    console.log(response);
   })
   .catch((error) => {
-    console.log(error)
-  })
-
-console.log(process.env)
+    console.log(error);
+  });
+  
