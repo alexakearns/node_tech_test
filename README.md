@@ -24,6 +24,8 @@ node loops.js
 
 Server request returns JSON of width, height and size of image, the results of which are interpolated into a string each time the image can be found on the server. 
 
+# API Integration
 
+Integration made using Axios with post data in itinerary.json
 
 
