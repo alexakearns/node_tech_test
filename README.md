@@ -26,6 +26,6 @@ Server request returns JSON of width, height and size of image, the results of w
 
 # API Integration
 
-Integration made using Axios with post data in itinerary.json
+Integration made using Axios with post data in itinerary.json.
 
-
+API key and operator code within .env file locally.
